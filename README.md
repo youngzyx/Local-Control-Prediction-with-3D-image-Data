@@ -9,7 +9,7 @@ We were working on this project during our internship at University of Californi
 `Local control` After stereotactic radiosurgery such as gamma knife, if certain brain metastasis does not locally recur, then that would be local control. Otherwise that would be local failure. 
 
 ## Dataset
-`Image data` 8407 3D MRI images with brain tumors and their masks. <br />
+`Image data` 8461 3D MRI images with brain tumors and their masks. <br />
 `Clinical data` 8407 tableau dataset with clinical features. <br />
 `Radiomics data` 8407 tableau dataset with radiomics features. <br />
 
