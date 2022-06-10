@@ -18,6 +18,10 @@ Modelling with three differet types of data respectively, then we model with the
 
 ### Image Models
 We tried different architectures of Convolutional Neural Network model such as UNet, ResNet 50. 
+| Architecture|Best Accuracy|Best Area under ROC|
+|:-----------|:------------:|:--------:|
+|[UNet+Linear](UNet_Linear.ipynb)|0.9125|0.5992|
+|[Half_UNet+Linear](Half_UNet_Linear_balancing.ipynb)|0.5073|0.5568|
 
 ### Models for tableau data
 Since both clinical and radiomics data are tableau data. It would be easier for us to model them together. We used gradient boosting model from scikit learn, xgboost, and random forest models.
