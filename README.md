@@ -26,3 +26,8 @@ We tried different architectures of Convolutional Neural Network model such as U
 ### Models for tableau data
 Since both clinical and radiomics data are tableau data. It would be easier for us to model them together. We used gradient boosting model from scikit learn, xgboost, and random forest models.
 
+|Data|Model|
+|:---|----:|
+|[Clinical](Gradient_Boosting_clinical&radiomic.ipynb)|Gradient Boosting|
+|[Radiomics](Gradient_Boosting_clinical&radiomic.ipynb)|Gradient Boosting|
+|[Clinical+Radiomics](Gradient_Boosting_clinical&radiomic.ipynb)|Gradient Boosting|
