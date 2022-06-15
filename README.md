@@ -13,6 +13,8 @@ We were working on this project during our internship at University of Californi
 `Clinical data` 8407 tableau dataset with clinical features. <br />
 `Radiomics data` 8407 tableau dataset with radiomics features. <br />
 
+<br/>
+<img src = 'img/MRI_img.png' width = '500' >
 ## Methodology
 Modelling with three differet types of data respectively, then we model with the combination of clinical data and other types of data.
 
