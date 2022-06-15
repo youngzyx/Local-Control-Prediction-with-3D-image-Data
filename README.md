@@ -15,6 +15,7 @@ We were working on this project during our internship at University of Californi
 
 <br/>
 <img src = 'img/MRI_img.png' width = '500' >
+
 ## Methodology
 Modelling with three differet types of data respectively, then we model with the combination of clinical data and other types of data.
 
