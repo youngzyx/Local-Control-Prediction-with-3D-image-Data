@@ -6,8 +6,11 @@
 ## Background
 We were working on this project during our internship at University of California, San Francisco. The main task for this project is to predict the local control from three different types of data: image data, clinical data, and radiomics data. <br />
 
-`Local control` After stereotactic radiosurgery such as gamma knife, if certain brain metastasis does not locally recur, then that would be local control. Otherwise that would be local failure. 
+`Local control` After stereotactic radiosurgery such as gamma knife, if certain brain metastasis does not locally recur, then that would be local control. Otherwise that would be local failure.<br />
 
+This project serves as an experiment of for the `Hypothesis`:
+ > Local control, ignorin gother factors such as KPS, age, histology, total met count/volume, can be ifnluenced both by position of the lesion and the proximity  of other leisions in the brain.
+  
 ## Dataset
 `Image data` 8461 3D MRI images with brain tumors and their masks. <br />
 `Clinical data` 8407 tableau dataset with clinical features. <br />
