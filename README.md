@@ -8,7 +8,7 @@ We were working on this project during our internship at University of Californi
 
 `Local control` After stereotactic radiosurgery such as gamma knife, if certain brain metastasis does not locally recur, then that would be local control. Otherwise that would be local failure.<br />
 
-This project serves as an experiment of for the `Hypothesis`:
+The image model is under the following hypothesis:
  > Local control, ignorin gother factors such as KPS, age, histology, total met count/volume, can be ifnluenced both by position of the lesion and the proximity  of other leisions in the brain.
   
 ## Dataset
@@ -30,7 +30,7 @@ We tried different architectures of Convolutional Neural Network model such as U
 |[Half_UNet+Linear](Half_UNet_Linear_balancing.ipynb)|0.5073|0.5568|
 
 ### Models for tableau data
-Since both clinical and radiomics data are tableau data. It would be easier for us to model them together. We used gradient boosting model from scikit learn, xgboost, and random forest models.
+Since both clinical and radiomics data are tabular data. It would be easier for us to model them together. We used gradient boosting model from scikit learn, xgboost, and random forest models.
 
 |Data|Model|
 |:---|----:|
