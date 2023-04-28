@@ -13,8 +13,8 @@ The image model is under the following hypothesis:
   
 ## Dataset
 `Image data` 8461 3D MRI images with brain tumors and their masks. <br />
-`Clinical data` 8407 tableau dataset with clinical features. <br />
-`Radiomics data` 8407 tableau dataset with radiomics features. <br />
+`Clinical data` 8407 tabular dataset with clinical features. <br />
+`Radiomics data` 8407 tabular dataset with radiomics features. <br />
 
 <br/>
 <img src = 'img/MRI_img.png' width = '500' >
