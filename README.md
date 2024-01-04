@@ -32,6 +32,7 @@ We tried different architectures of Convolutional Neural Network model such as U
 - Why do we use AUC-ROC:
   The AUC_ROC curve is defined as True Positive rate over False Positive rate at various threshold setting. It tells how much the model is capable to distinguish different classes. When AUC-ROC closed to 1 that means the model does well in separating 1 and 0. When the score closed to 0 that means the model is predicting the negative class as as positive class and vice versa. When the score is closed to 0.5, that means the model cannot separate them well.<br/>
 [Some good explanation](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+  The label for this model is failure, which means 1 indicates the gamma surgery will fail. Therefore, we care a lot about the False Positive rate because that might mistakenly pursuade a patient who will fail that surgery to take the surgery. 
 
 ### Models for tableau data
 Since both clinical and radiomics data are tabular data. It would be easier for us to model them together. We used gradient boosting model from scikit learn, xgboost, and random forest models.
