@@ -34,7 +34,7 @@ We tried different architectures of Convolutional Neural Network model such as U
 [Some good explanation](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
   The label for this model is failure, which means 1 indicates the gamma surgery will fail. Therefore, we care a lot about the False Positive rate because that might mistakenly pursuade a patient who will fail that surgery to take the surgery. 
 
-### Models for tableau data
+### Models for tabular data
 Since both clinical and radiomics data are tabular data. It would be easier for us to model them together. We used gradient boosting model from scikit learn, xgboost, and random forest models.
 
 |Data|Model|
