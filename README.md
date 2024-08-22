@@ -1,7 +1,7 @@
 # Local-Control-Prediction
 
 #### Team
-[Anish Mukherjee](https://github.com/anmuai), [Young Zeng](github.com/youngzyx)
+ [Young Zeng](github.com/youngzyx), [Anish Mukherjee](https://github.com/anmuai)
 
 ## Background
 We were working on this project during our internship at University of California, San Francisco. The main task for this project is to predict the local control from three different types of data: image data, clinical data, and radiomics data. <br />
